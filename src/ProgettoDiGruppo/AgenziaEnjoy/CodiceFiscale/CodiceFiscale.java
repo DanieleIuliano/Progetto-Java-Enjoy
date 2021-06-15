@@ -6,7 +6,18 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class CodiceFiscale {
-    public String codiceFiscale(String surname, String name, String birthDate, String townOfBirth, String gender) throws IOException, URISyntaxException {
+    /**
+     * Metodo che dato il cognome - nome - Data in forma (DD/MM/YYYY) - luogo di nascita- sesso (M o F) ritorna il codice fiscale
+     * @param surname .
+     * @param name .
+     * @param birthDate .
+     * @param townOfBirth .
+     * @param gender .
+     * @return  String codiceFiscale
+     * @throws IOException .
+     * @throws URISyntaxException .
+     */
+    public String calcolaCodiceFiscale(String surname, String name, String birthDate, String townOfBirth, String gender) throws IOException, URISyntaxException {
         String localFile = "codice-istat-comuni.csv";
         int maxComuneNameLength = 25;
         String maleValue = "M";
@@ -31,7 +42,7 @@ public class CodiceFiscale {
         return codiceFiscale;
     }
 
-
+    // metodo che permette la lettura del file excel delle città
     private static String readLocalFile(String filePath) throws IOException, URISyntaxException {
         return new String(Files.readAllBytes(Path.of("C:\\Users\\Coldfierz\\Desktop\\Classroom java Developer Webtreeschool\\Repositori-esercizi-Github\\Progetto Java Enjoy\\src\\ProgettoDiGruppo\\AgenziaEnjoy\\CodiceFiscale\\Libraries\\codice-istat-comuni.csv")));
     }
