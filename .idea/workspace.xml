@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_12_0__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_12_0_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_12_0_javadoc__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_12_0_sources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_12_0_test_sources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_12_0_tests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/codice-istat-comuni-big.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/codice-istat-comuni.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Veicolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Veicolo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/VeicoloAmotore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled104.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +99,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/commons-lang3-3.12.0-bin (1)/commons-lang3-3.12.0/commons-lang3-3.12.0-javadoc.jar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.152439" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Coldfierz\Desktop\Classroom java Developer Webtreeschool\Repositori-esercizi-Github\Progetto Java Enjoy\src\ProgettoDiGruppo\AgenziaEnjoy\CodiceFiscale\Libraries" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Utente">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ProgettoDiGruppo.Main" />
       <module name="untitled104" />
@@ -103,19 +124,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="Utente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProgettoDiGruppo.AgenziaEnjoy.Utente" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProgettoDiGruppo.AgenziaEnjoy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Utente" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -126,7 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1623677657853</updated>
       <workItem from="1623677659967" duration="106000" />
-      <workItem from="1623698639900" duration="5264000" />
+      <workItem from="1623698639900" duration="8777000" />
+      <workItem from="1623784589371" duration="3100000" />
     </task>
     <servers />
   </component>
@@ -143,5 +181,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

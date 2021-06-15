@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commons-lang3-3.12.0-tests">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
