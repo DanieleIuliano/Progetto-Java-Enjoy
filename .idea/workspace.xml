@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/CodiceFiscale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/CodiceFiscale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,10 +105,10 @@
       <recent name="C:\Users\Coldfierz\Desktop\Classroom java Developer Webtreeschool\Repositori-esercizi-Github\Progetto Java Enjoy\src\ProgettoDiGruppo\AgenziaEnjoy\CodiceFiscale\Libraries" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Utente">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ProgettoDiGruppo.Main" />
-      <module name="untitled104" />
+      <module name="Desktop" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -115,7 +118,7 @@
     </configuration>
     <configuration name="Utente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgettoDiGruppo.AgenziaEnjoy.Utente" />
-      <module name="untitled104" />
+      <module name="Desktop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ProgettoDiGruppo.AgenziaEnjoy.*" />
@@ -126,19 +129,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Utente" />
       </list>
     </recent_temporary>
@@ -153,7 +159,8 @@
       <updated>1623677657853</updated>
       <workItem from="1623677659967" duration="106000" />
       <workItem from="1623698639900" duration="8777000" />
-      <workItem from="1623784589371" duration="5140000" />
+      <workItem from="1623784589371" duration="7223000" />
+      <workItem from="1623794011549" duration="1484000" />
     </task>
     <servers />
   </component>
