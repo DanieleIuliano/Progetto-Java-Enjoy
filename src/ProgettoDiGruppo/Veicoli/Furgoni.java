@@ -15,12 +15,12 @@ public class Furgoni extends Veicolo  {
         super.setTipoCarburante(TipoCarburante.carburante);
     }
 
+
     @Override
-    public String toString() {
-        return "Furgoni{" +
-                "targa='" + targa + '\'' +
-                ", patente=" + patente +
-                ", percentualeCarburante=" + percentualeCarburante +
-                '}';
+    public boolean checkPatente() {
+        if(patente.equals(TipoPatente.C)){
+            return true;
+        }else
+        return false;
     }
 }

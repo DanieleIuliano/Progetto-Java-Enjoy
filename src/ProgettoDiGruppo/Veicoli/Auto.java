@@ -15,13 +15,11 @@ public class Auto extends Veicolo{
         super.setTipoCarburante(TipoCarburante.carburante);
     }
 
+
+
     public Auto(String uniqueId, String marca, double tariffaMinuti, double consumo, GeoPosizione posGeografica, boolean affittato, String targa, TipoPatente patente, int percentualeCarburante) {
         super(uniqueId, marca, tariffaMinuti, consumo, posGeografica, affittato);
         this.targa = targa;
-        if(ckeckPatente(patente)){
-            this.patente = patente;
-        }else System.out.println("non puoi inserire questa patente");
-
         this.percentualeCarburante = percentualeCarburante;
     }
 
@@ -47,15 +45,8 @@ public class Auto extends Veicolo{
     }
 
     @Override
-    public String toString() {
-        return "Auto{" +
-                "targa='" + targa + '\'' +
-                ", patente=" + patente +
-                ", percentualeCarburante=" + percentualeCarburante +
-                '}';
-    }
-    public boolean ckeckPatente (TipoPatente patente){
-        if(patente.equals(TipoPatente.B))return true;
+    public boolean checkPatente(){
+        if(patente.equals(TipoPatente.B) || patente.equals(TipoPatente.C))return true;
         else return false;
     }
 }
