@@ -1,9 +1,11 @@
 package ProgettoDiGruppo.AgenziaEnjoy;
 
 import CalcoloCodiceFiscale.CodiceFiscale;
+import ProgettoDiGruppo.Veicoli.TipoPatente;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.util.ArrayList;
 
 public class Utente {
 
@@ -16,8 +18,9 @@ public class Utente {
     private String comuneDiNascita;
     private String codiceFiscale;
     private String password;
+    private TipoPatente[] patentiPresenti;
 
-    public Utente(String nome, String cognome, int annoDiNascita, int meseDiNascita, int giornoDiNascita, String sesso, String comuneDiNascita, String password) {
+    public Utente(String nome, String cognome, int annoDiNascita, int meseDiNascita, int giornoDiNascita, String sesso, String comuneDiNascita, String password,TipoPatente[] tipoPatente) {
 
         this.nome = nome;
         this.cognome = cognome;
@@ -26,7 +29,7 @@ public class Utente {
         this.giornoDiNascita = giornoDiNascita;
         this.sesso = sesso;
         this.comuneDiNascita = comuneDiNascita;
-        password = this.password;
+        this.password = password;
         codiceFiscale = setCodiceFiscale();
 
 
