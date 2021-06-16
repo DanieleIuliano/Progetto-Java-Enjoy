@@ -14,6 +14,12 @@ public class Scooter extends Veicolo{
         this.percentualeCarburante = this.percentualeCarburante;
     }
 
+    @Override
+    public String toString() {
+        return "Scooter{" +
+                "targa='" + targa + '\'' +"marca='"+getMarca()+"tarrifaMinuti='"+ getTariffaMinuti()+"TipoCarburante='"+getTipoCarburante()+
+                '}';
+    }
 
     @Override
     public boolean checkPatente() {

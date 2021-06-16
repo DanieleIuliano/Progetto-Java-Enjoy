@@ -15,7 +15,12 @@ public class Auto extends Veicolo{
         super.setTipoCarburante(TipoCarburante.carburante);
     }
 
-
+    @Override
+    public String toString() {
+        return "Auto{" +
+                "targa='" + targa + "marca='"+getMarca()+"tarrifaMinuti='"+ getTariffaMinuti()+"TipoCarburante'"+getTipoCarburante()+
+                '}';
+    }
 
     public Auto(String uniqueId, String marca, double tariffaMinuti, double consumo, GeoPosizione posGeografica, String targa, TipoPatente patente, int percentualeCarburante) {
         super(uniqueId, marca, tariffaMinuti, consumo, posGeografica);
