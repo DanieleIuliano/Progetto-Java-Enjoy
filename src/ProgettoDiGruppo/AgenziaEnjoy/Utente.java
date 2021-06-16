@@ -114,6 +114,18 @@ public class Utente {
         this.password = password;
 
     }
+
+    public ArrayList<TipoPatente> getPatentiPresenti() {
+
+        return patentiPresenti;
+
+    }
+
+    public void setPatentiPresenti(ArrayList<TipoPatente> patentiPresenti) {
+
+        this.patentiPresenti = patentiPresenti;
+
+    }
 }
 
 

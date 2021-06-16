@@ -1,6 +1,7 @@
 package ProgettoDiGruppo.AgenziaEnjoy;
 
 import ProgettoDiGruppo.Veicoli.TipoPatente;
+import ProgettoDiGruppo.Veicoli.Veicolo;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -284,13 +285,38 @@ public class Agenzia {
 
     }
 
-   // public void prenotaVeicolo(Utente utente){
+   public ArrayList<String> veicoliPrenotabili(Utente utente){
 
+        ArrayList<String> veicoli = new ArrayList<>();
 
+       System.out.println("Puoi affittare: ");
+       veicoli.add("Bicicletta");
+       veicoli.add("Monopattino");
+       System.out.println("|Bicicletta|\n|Monopattino|");
 
+        if(utente.getPatentiPresenti().contains(TipoPatente.A)) {
 
+            System.out.println("|Scooter|");
+            veicoli.add("Scooter");
 
-    //}
+        }
+
+        if(utente.getPatentiPresenti().contains(TipoPatente.B)) {
+
+            System.out.println("|Auto|");
+            veicoli.add("Auto");
+
+        }
+        if(utente.getPatentiPresenti().contains(TipoPatente.C)) {
+
+            System.out.println("|Furgoni|");
+            veicoli.add("Furgoni");
+
+        }
+
+        return veicoli;
+
+   }
 
 
 }
