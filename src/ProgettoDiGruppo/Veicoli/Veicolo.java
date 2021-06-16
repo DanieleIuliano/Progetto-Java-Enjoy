@@ -6,6 +6,7 @@ import java.util.UUID;
 
 //classe astratta che gestisce uniqueId
 public abstract class Veicolo {
+
     final String uniqueId;
     String marca;
     double tariffaMinuti;

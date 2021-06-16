@@ -1,13 +1,19 @@
 package ProgettoDiGruppo;
 import CalcoloCodiceFiscale.CodiceFiscale;
+import ProgettoDiGruppo.AgenziaEnjoy.Agenzia;
+import ProgettoDiGruppo.AgenziaEnjoy.Utente;
 
 public class Main {
 
     public static void main(String[] args){
 
+        Agenzia agenzia = new Agenzia();
+        agenzia.registrazione();
+        agenzia.registrazione();
+        Utente utente = agenzia.accesso();
 
-        CodiceFiscale codiceFiscale = new CodiceFiscale("Iuliano", "Daniele", 1996, 12, 19,"M", "Marcianise");
-        System.out.println(codiceFiscale.getCodiceFiscale());
+
+
 
    }
 

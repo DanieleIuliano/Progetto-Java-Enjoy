@@ -15,8 +15,9 @@ public class Utente {
     private String sesso;
     private String comuneDiNascita;
     private String codiceFiscale;
+    private String password;
 
-    public Utente(String nome, String cognome, int annoDiNascita, int meseDiNascita, int giornoDiNascita, String sesso, String comuneDiNascita) {
+    public Utente(String nome, String cognome, int annoDiNascita, int meseDiNascita, int giornoDiNascita, String sesso, String comuneDiNascita, String password) {
 
         this.nome = nome;
         this.cognome = cognome;
@@ -25,7 +26,9 @@ public class Utente {
         this.giornoDiNascita = giornoDiNascita;
         this.sesso = sesso;
         this.comuneDiNascita = comuneDiNascita;
+        password = this.password;
         codiceFiscale = setCodiceFiscale();
+
 
     }
 
@@ -93,6 +96,18 @@ public class Utente {
 
         CodiceFiscale codiceFiscale = new CodiceFiscale(cognome, nome, annoDiNascita, meseDiNascita, giornoDiNascita, sesso, comuneDiNascita);
         return codiceFiscale.getCodiceFiscale();
+
+    }
+
+    public String getPassword() {
+
+        return password;
+
+    }
+
+    public void setPassword(String password) {
+
+        this.password = password;
 
     }
 }

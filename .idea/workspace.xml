@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue">
+    <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="Aggiunta dati utente">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/codice-istat-comuni-big.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/codice-istat-comuni.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Auto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/CalcoloCodiceFiscale/CodiceFiscale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Veicolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Veicolo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +26,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1twQQXApQGnKEpqRNqO6HavVkMr" />
   <component name="ProjectView">
@@ -212,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623828707268</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Aggiunta dati utente">
+      <created>1623829705748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623829705748</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +235,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue" />
+    <MESSAGE value="Aggiunta dati utente" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta dati utente" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="databaseAgenzia.utentiDellAgenzia.get(0)" />
+        <watch expression="databaseAgenzia.utentiDellAgenzia.get(0)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
