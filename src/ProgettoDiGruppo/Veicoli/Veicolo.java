@@ -6,13 +6,13 @@ import java.util.UUID;
 
 //classe astratta che gestisce uniqueId
 public abstract class Veicolo {
-
     final String uniqueId;
     String marca;
     double tariffaMinuti;
     double consumo;
     GeoPosizione posGeografica;
     boolean affittato;
+    TipoCarburante tipoCarburante;
 
     public Veicolo(String uniqueId, String marca, double tariffaMinuti, double consumo, GeoPosizione posGeografica, boolean affittato) {
         this.uniqueId = uniqueId;
@@ -21,5 +21,13 @@ public abstract class Veicolo {
         this.consumo = consumo;
         this.posGeografica = posGeografica;
         this.affittato = affittato;
+    }
+
+    public TipoCarburante getTipoCarburante() {
+        return tipoCarburante;
+    }
+
+    public void setTipoCarburante(TipoCarburante tipoCarburante) {
+        this.tipoCarburante = tipoCarburante;
     }
 }
