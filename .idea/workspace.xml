@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" afterDir="false" />
     </list>
+=======
+    <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -149,6 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+>>>>>>> Stashed changes
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -166,7 +173,12 @@
       <updated>1623677657853</updated>
       <workItem from="1623677659967" duration="106000" />
       <workItem from="1623698639900" duration="8777000" />
+<<<<<<< Updated upstream
       <workItem from="1623784589371" duration="5140000" />
+=======
+      <workItem from="1623784589371" duration="7223000" />
+      <workItem from="1623794011549" duration="1639000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue">
       <created>1623828089041</created>
