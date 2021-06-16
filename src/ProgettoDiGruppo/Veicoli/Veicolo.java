@@ -69,6 +69,15 @@ public abstract class Veicolo {
 
     }
 
+    @Override
+    public String toString() {
+        return "Veicolo{" +
+                "marca='" + marca + '\'' +
+                ", tariffaMinuti=" + tariffaMinuti +
+                ", tipoCarburante=" + tipoCarburante +
+                '}';
+    }
+
     public TipoCarburante getTipoCarburante() {
 
         return tipoCarburante;

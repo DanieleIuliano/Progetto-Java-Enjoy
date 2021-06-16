@@ -12,6 +12,13 @@ public class Monopattino extends Veicolo{
     }
 
     @Override
+    public String toString() {
+        return "Monopattino{" +
+                "marca='"+getMarca()+"tarrifaMinuti='"+ getTariffaMinuti()+"TipoCarburante'"+getTipoCarburante()+
+                '}';
+    }
+
+    @Override
     public boolean checkPatente() {
         return true;
     }
