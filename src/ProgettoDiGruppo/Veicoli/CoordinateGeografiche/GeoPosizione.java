@@ -6,6 +6,7 @@ public class GeoPosizione {
     private double longitudePartenza;
 
     public GeoPosizione(double latitudePartenza, double longitudePartenza) {
+
         this.latitudePartenza = latitudePartenza;
         this.latitudePartenza = longitudePartenza;
     }

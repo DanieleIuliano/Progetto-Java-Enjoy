@@ -322,13 +322,15 @@ public class Agenzia {
         scelta = scanner.next();
         Veicolo veicolo;
 
-        switch (scelta.toLowerCase(Locale.ROOT)){
+        switch (scelta.toLowerCase(Locale.ROOT)) {
 
             case "auto":
 
-                if(utente.getPatentiPresenti().contains(TipoPatente.B))
+                if (utente.getPatentiPresenti().contains(TipoPatente.B)){
 
                     stampaAuto();
+                    prenotaAuto();
+                }
 
                 else
 
@@ -337,12 +339,13 @@ public class Agenzia {
 
                 break;
 
-            case "furgoni":
+            case "furgone":
 
 
                 if(utente.getPatentiPresenti().contains(TipoPatente.C))
 
                     stampaFurgoni();
+
 
                 else
 
@@ -360,10 +363,12 @@ public class Agenzia {
 
             case "scooter":
 
-                if(utente.getPatentiPresenti().contains(TipoPatente.A))
+                if(utente.getPatentiPresenti().contains(TipoPatente.A)) {
 
                     stampaScooter();
+                    prenotaScooter();
 
+                }
                 else
 
                     System.out.println("Veicolo non prenotabile");

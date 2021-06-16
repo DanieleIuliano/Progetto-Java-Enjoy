@@ -10,20 +10,21 @@ public class Auto extends Veicolo{
 
     int percentualeCarburante;
 
-    public Auto(String uniqueId, String marca, double tariffaMinuti, double consumo, GeoPosizione posGeografica) {
-        super(uniqueId, marca, tariffaMinuti, consumo, posGeografica);
+    public Auto(String uniqueId, String marca, double tariffaMinuti, double consumo, GeoPosizione posGeografica, String targa) {
+        super(uniqueId, marca, tariffaMinuti, consumo, posGeografica, false);
         super.setTipoCarburante(TipoCarburante.carburante);
+        this.targa = targa;
     }
 
     @Override
     public String toString() {
         return "Auto{" +
-                "targa='" + targa + "marca='"+getMarca()+"tarrifaMinuti='"+ getTariffaMinuti()+"TipoCarburante'"+getTipoCarburante()+
+                "Targa = '" + targa + "marca='"+getMarca()+"tarrifa al Minuto='"+ getTariffaMinuti()+"TipoCarburante'"+getTipoCarburante()+
                 '}';
     }
 
     public Auto(String uniqueId, String marca, double tariffaMinuti, double consumo, GeoPosizione posGeografica, String targa, TipoPatente patente, int percentualeCarburante) {
-        super(uniqueId, marca, tariffaMinuti, consumo, posGeografica);
+        super(uniqueId, marca, tariffaMinuti, consumo, posGeografica, false);
         this.targa = targa;
         this.percentualeCarburante = percentualeCarburante;
     }

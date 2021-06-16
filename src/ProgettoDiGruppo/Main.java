@@ -28,7 +28,7 @@ public class Main {
             }
 
             else {
-                System.out.println("Cosa vuoi fare: ");
+                System.out.println("Cosa vuoi fare: \n|Prenotazione|\n|Exit|");
                 System.out.print("Scelta: ");
                 scelta = scanner.next();
 
@@ -58,6 +58,12 @@ public class Main {
                     continue;
 
                 }
+
+            }
+
+            if(scelta.equalsIgnoreCase("Prenotazione")){
+
+                agenzia.prenotaVeicolo(utente);
 
             }
 
