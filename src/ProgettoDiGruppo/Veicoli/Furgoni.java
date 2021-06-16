@@ -1,4 +1,18 @@
 package ProgettoDiGruppo.Veicoli;
 
-public class Furgoni  {
+import ProgettoDiGruppo.Veicoli.CoordinateGeografiche.GeoPosizione;
+
+public class Furgoni extends Veicolo  {
+    String targa;
+    TipoPatente patente = TipoPatente.C;
+    int percentualeCarburante;
+
+    public Furgoni(String uniqueId, String marca, double tariffaMinuti, double consumo, GeoPosizione posGeografica, boolean affittato, String targa, TipoPatente patente, int percentualeCarburante) {
+        super(uniqueId, marca, tariffaMinuti, consumo, posGeografica, affittato);
+        this.targa = targa;
+        this.patente = patente;
+        this.percentualeCarburante = percentualeCarburante;
+    }
+
+
 }
