@@ -18,9 +18,9 @@ public class Utente {
     private String comuneDiNascita;
     private String codiceFiscale;
     private String password;
-    private TipoPatente[] patentiPresenti;
+    private  ArrayList<TipoPatente> patentiPresenti;
 
-    public Utente(String nome, String cognome, int annoDiNascita, int meseDiNascita, int giornoDiNascita, String sesso, String comuneDiNascita, String password,TipoPatente[] tipoPatente) {
+    public Utente(String nome, String cognome, int annoDiNascita, int meseDiNascita, int giornoDiNascita, String sesso, String comuneDiNascita, String password, ArrayList<TipoPatente> patentiPresenti) {
 
         this.nome = nome;
         this.cognome = cognome;
@@ -30,6 +30,7 @@ public class Utente {
         this.sesso = sesso;
         this.comuneDiNascita = comuneDiNascita;
         this.password = password;
+        this.patentiPresenti = patentiPresenti;
         codiceFiscale = setCodiceFiscale();
 
 

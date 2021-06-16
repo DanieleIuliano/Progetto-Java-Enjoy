@@ -1,5 +1,8 @@
 package ProgettoDiGruppo.AgenziaEnjoy;
 
+import ProgettoDiGruppo.Veicoli.TipoPatente;
+
+import java.util.ArrayList;
 import java.util.Scanner;
 
 // classe che gestisce il database
@@ -8,7 +11,6 @@ public class Agenzia {
     private Utente utente;
     private Database databaseAgenzia = new Database();
     Scanner scanner = new Scanner(System.in);
-
 
     public void registrazione() {
 
@@ -19,7 +21,9 @@ public class Agenzia {
         int giornoDiNascita;
         String sesso;
         String comuneDiNascita;
+        ArrayList<TipoPatente> patentiPresenti = new ArrayList<>();
         String password;
+        String patenti;
 
         System.out.println("Procediamo con la registrazione!");
         while (true) {
@@ -170,6 +174,47 @@ public class Agenzia {
 
         while (true){
 
+            System.out.print("Patenti possedute 'A', 'B', 'C', 'Fine' : ");
+            patenti = scanner.next();
+
+            if(patenti.equalsIgnoreCase("A")){
+
+                patentiPresenti.add(TipoPatente.A);
+                continue;
+            }
+
+            if(patenti.equalsIgnoreCase("B")){
+
+                patentiPresenti.add(TipoPatente.B);
+                continue;
+
+            }
+
+            if(patenti.equalsIgnoreCase("C")){
+
+                patentiPresenti.add(TipoPatente.B);
+                continue;
+
+            }
+
+            if(patenti.equalsIgnoreCase("FINE")){
+
+                break;
+
+            }
+
+           else{
+
+                System.out.println("FORMATO PATENTE NON VALIDA, SCEGLI UNA DELLE OPZIONI");
+                continue;
+
+            }
+
+
+        }
+
+        while (true){
+
             System.out.print("Password: ");
             password = scanner.next();
 
@@ -184,7 +229,7 @@ public class Agenzia {
 
         }
 
-        Utente utente = new Utente(nomeUtente, cognomeUtente, annoDiNascita, meseDiNascita, giornoDiNascita, sesso, comuneDiNascita, password);
+        Utente utente = new Utente(nomeUtente, cognomeUtente, annoDiNascita, meseDiNascita, giornoDiNascita, sesso, comuneDiNascita, password, patentiPresenti);
         databaseAgenzia.addUtenteDellAgenzia(utente);
         utente = null;
 
@@ -239,12 +284,13 @@ public class Agenzia {
 
     }
 
-    public void prenotaVeicolo(Utente utente){
+   // public void prenotaVeicolo(Utente utente){
 
 
 
 
-    }
+
+    //}
 
 
 }

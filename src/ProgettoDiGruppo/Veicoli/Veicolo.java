@@ -26,10 +26,17 @@ public abstract class Veicolo {
     }
 
     public TipoCarburante getTipoCarburante() {
+
         return tipoCarburante;
+
     }
 
     public void setTipoCarburante(TipoCarburante tipoCarburante) {
+
         this.tipoCarburante = tipoCarburante;
+
     }
+
+    public abstract boolean checkPatente();
+
 }
