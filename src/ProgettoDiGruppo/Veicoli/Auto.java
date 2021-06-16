@@ -10,15 +10,15 @@ public class Auto extends Veicolo{
 
     int percentualeCarburante;
 
-    public Auto(String uniqueId, String marca, double tariffaMinuti, double consumo, GeoPosizione posGeografica, boolean affittato) {
-        super(uniqueId, marca, tariffaMinuti, consumo, posGeografica, affittato);
+    public Auto(String uniqueId, String marca, double tariffaMinuti, double consumo, GeoPosizione posGeografica) {
+        super(uniqueId, marca, tariffaMinuti, consumo, posGeografica);
         super.setTipoCarburante(TipoCarburante.carburante);
     }
 
 
 
-    public Auto(String uniqueId, String marca, double tariffaMinuti, double consumo, GeoPosizione posGeografica, boolean affittato, String targa, TipoPatente patente, int percentualeCarburante) {
-        super(uniqueId, marca, tariffaMinuti, consumo, posGeografica, affittato);
+    public Auto(String uniqueId, String marca, double tariffaMinuti, double consumo, GeoPosizione posGeografica, String targa, TipoPatente patente, int percentualeCarburante) {
+        super(uniqueId, marca, tariffaMinuti, consumo, posGeografica);
         this.targa = targa;
         this.percentualeCarburante = percentualeCarburante;
     }

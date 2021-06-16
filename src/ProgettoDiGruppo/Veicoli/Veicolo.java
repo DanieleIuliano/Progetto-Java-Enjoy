@@ -6,6 +6,7 @@ import java.util.UUID;
 
 //classe astratta che gestisce uniqueId
 public abstract class Veicolo {
+
     private final String uniqueId;
     private String marca;
     private double tariffaMinuti;
@@ -82,12 +83,6 @@ public abstract class Veicolo {
     }
 
     public abstract boolean checkPatente();
-<<<<<<< Updated upstream
 
-=======
-<<<<<<< HEAD
-=======
 
->>>>>>> main
->>>>>>> Stashed changes
 }

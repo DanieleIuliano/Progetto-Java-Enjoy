@@ -28,7 +28,7 @@ public class Main {
             }
 
             else {
-
+                System.out.println("Cosa vuoi fare: ");
                 System.out.print("Scelta: ");
                 scelta = scanner.next();
 
