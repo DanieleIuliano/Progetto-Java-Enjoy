@@ -3,7 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/codice-istat-comuni-big.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/codice-istat-comuni.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-test-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-tests.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Auto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/CalcoloCodiceFiscale/CodiceFiscale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Auto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,8 +121,7 @@
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ProgettoDiGruppo.Main" />
-      <module name="untitled104" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <module name="Desktop" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -114,7 +130,7 @@
     </configuration>
     <configuration name="Utente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProgettoDiGruppo.AgenziaEnjoy.Utente" />
-      <module name="untitled104" />
+      <module name="Desktop" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ProgettoDiGruppo.AgenziaEnjoy.*" />
@@ -182,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623828105897</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue">
+      <created>1623828617144</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623828617144</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue">
+      <created>1623828707268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623828707268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
