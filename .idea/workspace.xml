@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="Aggiunta del metodo registrazione e del metodo accesso ad Agenzia, aggiunto attributo password ad utente">
+    <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="Aggiunta metodo ad agenzia e patenti ad utente">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Auto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Bicicletta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Bicicletta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Furgoni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Furgoni.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Scooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Scooter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Veicolo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Veicolo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/TipoPatente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/TipoPatente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Scooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Scooter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Veicolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Veicolo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +23,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -232,7 +225,35 @@
       <option name="project" value="LOCAL" />
       <updated>1623834669808</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Quasi finito il tipo patente nell'utente ed aggiunto l'interfaccia">
+      <created>1623836441766</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623836441766</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Quasi finito il tipo patente nell'utente ed aggiunto l'interfaccia">
+      <created>1623836469205</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623836469205</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix vari bug presenti nei metodi di agenzia e aggiunta interfaccia">
+      <created>1623837309897</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623837309897</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Aggiunta metodo ad agenzia e patenti ad utente">
+      <created>1623838346545</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623838346545</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +275,10 @@
     <MESSAGE value="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue" />
     <MESSAGE value="Aggiunta dati utente" />
     <MESSAGE value="Aggiunta del metodo registrazione e del metodo accesso ad Agenzia, aggiunto attributo password ad utente" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta del metodo registrazione e del metodo accesso ad Agenzia, aggiunto attributo password ad utente" />
+    <MESSAGE value="Quasi finito il tipo patente nell'utente ed aggiunto l'interfaccia" />
+    <MESSAGE value="Fix vari bug presenti nei metodi di agenzia e aggiunta interfaccia" />
+    <MESSAGE value="Aggiunta metodo ad agenzia e patenti ad utente" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta metodo ad agenzia e patenti ad utente" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
