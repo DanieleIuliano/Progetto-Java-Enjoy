@@ -65,7 +65,7 @@ public abstract class Veicolo {
         this.tariffaMinuti = tariffaMinuti;
         this.consumo = consumo;
         this.posGeografica = posGeografica;
-        this.affittato = affittato;
+        setAffittato(false);
 
     }
 
@@ -82,12 +82,5 @@ public abstract class Veicolo {
     }
 
     public abstract boolean checkPatente();
-<<<<<<< Updated upstream
-
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> main
->>>>>>> Stashed changes
 }
+
