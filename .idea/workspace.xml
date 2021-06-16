@@ -1,39 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CalcoloCodiceFiscale/CodiceFiscale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalcoloCodiceFiscale/CodiciCatastali.text" afterDir="false" />
+    <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/CodiceFiscale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/CodiceFiscale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/FiscalCodeConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/FiscalCodeConf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/FiscalCodeNormalizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/FiscalCodeNormalizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/FiscalCodeValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/FiscalCodeValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/Auto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/Bicicletta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/Bicicletta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/Furgoni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/Furgoni.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/Monopattino.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/Monopattino.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/Scooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/Scooter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/TipoPatente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/TipoPatente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/Veicolo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/Veicolo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/CodiceFiscale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/FiscalCodeConf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/FiscalCodeNormalizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/FiscalCodeValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/codice-istat-comuni-big.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/codice-istat-comuni.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +136,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Desktop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Desktop" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -185,6 +168,21 @@
       <workItem from="1623698639900" duration="8777000" />
       <workItem from="1623784589371" duration="5140000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue">
+      <created>1623828089041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623828089041</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue">
+      <created>1623828105897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623828105897</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,5 +199,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue" />
   </component>
 </project>
