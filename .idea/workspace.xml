@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue">
+    <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="Cambiamenti inutili">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/codice-istat-comuni-big.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/codice-istat-comuni.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/CodiceFiscale/Libraries/commons-lang3-3.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Auto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/CalcoloCodiceFiscale/CodiceFiscale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Furgoni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Furgoni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Scooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Scooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Veicolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Veicolo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,19 +134,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Desktop" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Desktop" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
