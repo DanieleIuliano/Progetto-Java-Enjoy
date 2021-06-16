@@ -9,6 +9,7 @@ public class Agenzia {
     private Database databaseAgenzia = new Database();
     Scanner scanner = new Scanner(System.in);
 
+
     public void registrazione() {
 
         String nomeUtente;
@@ -19,8 +20,7 @@ public class Agenzia {
         String sesso;
         String comuneDiNascita;
         String password;
-        
-        
+
         System.out.println("Procediamo con la registrazione!");
         while (true) {
 
@@ -238,5 +238,13 @@ public class Agenzia {
         return null;
 
     }
+
+    public void prenotaVeicolo(Utente utente){
+
+
+
+
+    }
+
 
 }
