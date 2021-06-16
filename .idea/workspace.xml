@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="Aggiunta del metodo registrazione e del metodo accesso ad Agenzia, aggiunto attributo password ad utente">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Database.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/AgenziaEnjoy/Utente.class" afterDir="false" />
@@ -13,12 +12,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Furgoni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Furgoni.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Scooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Scooter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Veicolo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desktop/ProgettoDiGruppo/Veicoli/Veicolo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/TipoPatente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/TipoPatente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Veicolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Veicolo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +100,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -158,19 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Desktop" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Desktop" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -189,6 +172,8 @@
       <workItem from="1623677659967" duration="106000" />
       <workItem from="1623698639900" duration="8777000" />
       <workItem from="1623784589371" duration="5140000" />
+      <workItem from="1623836908078" duration="59000" />
+      <workItem from="1623836975149" duration="1830000" />
     </task>
     <task id="LOCAL-00001" summary="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue">
       <created>1623828089041</created>
@@ -225,12 +210,12 @@
       <option name="project" value="LOCAL" />
       <updated>1623829705748</updated>
     </task>
-    <task id="LOCAL-00006" summary="Aggiunta del metodo registrazione e del metodo accesso ad Agenzia, aggiunto attributo password ad utente">
-      <created>1623834669808</created>
+    <task id="LOCAL-00006" summary="workspace">
+      <created>1623838412403</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1623834669808</updated>
+      <updated>1623838412403</updated>
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
@@ -253,8 +238,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue" />
     <MESSAGE value="Aggiunta dati utente" />
-    <MESSAGE value="Aggiunta del metodo registrazione e del metodo accesso ad Agenzia, aggiunto attributo password ad utente" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta del metodo registrazione e del metodo accesso ad Agenzia, aggiunto attributo password ad utente" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
