@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="62945ad5-22f6-4b7f-ab66-9f3500b12a03" name="Default Changelist" comment="Aggiunta dati utente">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Agenzia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/AgenziaEnjoy/Utente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/CoordinateGeografiche/GeoPosizione.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Veicolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgettoDiGruppo/Veicoli/Veicolo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +90,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -148,19 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Desktop" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Desktop" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -179,6 +162,8 @@
       <workItem from="1623677659967" duration="106000" />
       <workItem from="1623698639900" duration="8777000" />
       <workItem from="1623784589371" duration="5140000" />
+      <workItem from="1623836908078" duration="59000" />
+      <workItem from="1623836975149" duration="1414000" />
     </task>
     <task id="LOCAL-00001" summary="Fix problema Codice Fiscale, aggiunta CodiciCatastali.text e rimozione di classi superflue">
       <created>1623828089041</created>
@@ -239,15 +224,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Aggiunta dati utente" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ProgettoDiGruppo/Main.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="databaseAgenzia.utentiDellAgenzia.get(0)" />
