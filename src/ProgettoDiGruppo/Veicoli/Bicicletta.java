@@ -10,11 +10,9 @@ public class Bicicletta extends Veicolo{
     }
 
     @Override
-    public String toString() {
-        return "Bicicletta{" +
-                "uniqueId='" + uniqueId + '\'' +
-                ", marca='" + marca + '\'' +
-                ", tariffaMinuti=" + tariffaMinuti +
-                '}';
+    public boolean checkPatente() {
+      return true;
     }
+
+
 }
