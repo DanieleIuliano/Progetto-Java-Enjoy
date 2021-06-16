@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws IOException, URISyntaxException {
 	// write your code he
 
-        CodiceFiscale codiceFiscale = new CodiceFiscale("Pellecchia", "Raffaele", 2001, 01, 27,"M", "Napoli");
+        CodiceFiscale codiceFiscale = new CodiceFiscale("Iuliano", "Daniele", 1996, 12, 19,"M", "Marcianise");
         System.out.println(codiceFiscale.getCodiceFiscale());
 
 
